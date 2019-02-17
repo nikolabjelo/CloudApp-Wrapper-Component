@@ -48,7 +48,7 @@ function newCloudVM() {
                     Key: "",
                     Secret: ""
                 }
-            }         
+            }
 
             root.initialize(pUI_COMMANDS, onInitialized);
 
@@ -78,7 +78,7 @@ function newCloudVM() {
 
         if (INFO_LOG === true) { logger.write("[INFO] onBotStopPressed -> Entering function."); }
 
-        window.SHALL_BOT_STOP = true; 
+        window.SHALL_BOT_STOP = true;
         errorsCheckingForBotCodeChanges = 0;
 
     }
