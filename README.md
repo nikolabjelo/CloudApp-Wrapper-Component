@@ -1,6 +1,6 @@
 # CloudApp Wrapper Component
 
-_This repo was deprecated when we removed bots running from the browser._
+_NOTE: This repo was deprecated when we removed bots running from the browser._
 
 The objective of this component is to allow the CloudApp to un at the browser reusing as much of the original CloudApp source code as possible. CloudApp is the Node.js App that executes bots at the cloud. Execution at the CloudApp starts at Run.js, a module designed to do the initial setup before passing the execution onto Root.js. All cloud specific initialization is at that Run.js module.
 
